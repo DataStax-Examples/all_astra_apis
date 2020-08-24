@@ -27,6 +27,7 @@ There are also test files to illustrate how the examples could be used:
 
 ### Prerequisites
 * This requires a recent version of Node.js; I was using v14.7
+* You will need to install [Mocha](https://mochajs.org/) `npm install mocha`
 * You'll also need an Astra database (can be set up for free)
 
 ### Running
