@@ -7,7 +7,7 @@ const mappings = new DefaultTableMappings
 const baseURL = "https://<cluster_id_and_region>.apps.astra.datastax.com"
 const restURL = baseURL + "/api/rest"
 const gqlURL =  baseURL + "/api/graphql"
-const secure_bundle_path = "/Users/your.account/Development/all_astra_apis/secure-connect-stuff.zip"
+const secure_bundle_path = "/path/to/secure-connect-bundle.zip"
 
 const keyspace = "stuff"
 const username = "stuff_user"
