@@ -11,7 +11,7 @@ Contributors: [Kiyu Gabriel](https://github.com/qzg)
 
 ## Project Layout
 The most files are in the root of the project:
-* table_multi_api.js: examples of CRUD operations using each API
+* [table_multi_api.js]: examples of CRUD operations using each API
 * schema.cql: example Cassandra schema that works with the tests
 * config.js: your settings
 * utility.js: functions to deal with some of the differences in the way the APIs like their data
@@ -28,6 +28,12 @@ There are also test files to illustrate how the examples could be used:
 * You'll also need an Astra database (can be set up for free)
 
 ## Setup and Running
+
+### Prerequisites
+* This requires a recent version of Node.js; I was using v14.7
+* You'll also need an Astra database (can be set up for free)
+
+### Running
 If you'd like to see the tests in action, you'll need a test database.
 1. Create an account at [astra.datastax.com](https://astra.datastax.com)
 2. Set up a database (in the samples, I named the database "stuff")
