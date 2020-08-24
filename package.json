@@ -1,0 +1,34 @@
+{
+  "name": "all_astra_apis",
+  "version": "1.0.0",
+  "description": "Demonstrate usage of the REST, GraphQL, and CQL APIs for Astra",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qzg/all_astra_apis.git"
+  },
+  "keywords": [
+    "datastax",
+    "astra",
+    "node.js",
+    "cassandra",
+    "cql"
+  ],
+  "author": "Kiyu Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qzg/all_astra_apis/issues"
+  },
+  "homepage": "https://github.com/qzg/all_astra_apis#readme",
+  "dependencies": {
+    "camelcase": "^6.0.0",
+    "cassandra-driver": "^4.5.2",
+    "chai": "^4.2.0",
+    "got": "^11.5.1",
+    "mocha": "^8.0.1",
+    "uuid": "^8.2.0"
+  }
+}
