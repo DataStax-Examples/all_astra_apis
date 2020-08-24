@@ -36,10 +36,10 @@ If you'd like to see the tests in action, you'll need a test database.
 2. Set up a database (in the samples, I named the database "stuff")
 3. Set up a keyspace (in the samples, I also named the keyspace "stuff")
 4. Set up a user and password (in the samples, I used "stuff_user" and "stuff_password" - you should use something more secure)
-5. Put all of this information into your config.js
-6. Download the secure connect bundle from the summary page after your database has launched.  You'll need this later. Save this file in the root of this project and update the config.js file with the path to it.
-7. Also grab the REST API URL from the Summary page - put basE of this URL in the config.js.  The base of the REST API URL and the GraphQL API URL are the same, just trim off the "/api/rest" part.  
-8. Use the CQL Console to create the tables defined in the schema.cql file
+5. Put all of this information into your `config.js`
+6. Download the secure connect bundle from the summary page after your database has launched.  You'll need this later. Save this file update the `config.js` file with the path to it.
+7. Also grab the REST API URL from the Summary page - put base of this URL in the config.js.  The base of the REST API URL and the GraphQL API URL are the same, just trim off the "/api/rest" part.  
+8. Use the CQL Console to create the tables defined in the `schema.cql` file
 9. In the root of this project, run `npm test` to exercise all the APIs.  
 
 
