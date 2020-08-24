@@ -7,6 +7,7 @@ Data in the Astra DBaaS can be accessed using four different APIs (so far).
 
 This reference project shows how you can use these APIs from Node.js.
 
+Contributors: [Kiyu Gabriel](https://github.com/qzg)
 
 ## Project Layout
 The most files are in the root of the project:
@@ -22,6 +23,9 @@ There are also test files to illustrate how the examples could be used:
 * test/KeyspaceMapper.js: test the functionality of the KeyspaceMapper
 * test/sample_data.js: sample data for table_multi_api.js 
 
+### Prerequisites
+* This requires a recent version of Node.js; I was using v14.7
+* You'll also need an Astra database (can be set up for free)
 
 ## Setup and Running
 If you'd like to see the tests in action, you'll need a test database.
@@ -35,8 +39,4 @@ If you'd like to see the tests in action, you'll need a test database.
 8. Use the CQL Console to create the tables defined in the schema.cql file
 9. In the root of this project, run `npm test` to exercise all the APIs.  
 
-### Prerequisites
-* This requires a recent version of Node.js; I was using v14.7
-* You'll also need an Astra database (can be set up for free)
 
-Contributors: [Kiyu Gabriel](https://github.com/qzg)
