@@ -11,7 +11,7 @@ Contributors: [Kiyu Gabriel](https://github.com/qzg)
 
 ## Project Layout
 The most files are in the root of the project:
-* [table_multi_api.js]: examples of CRUD operations using each API
+* [table_multi_api.js](table_multi_api.js): examples of CRUD operations using each API
 * schema.cql: example Cassandra schema that works with the tests
 * config.js: your settings
 * utility.js: functions to deal with some of the differences in the way the APIs like their data
@@ -22,10 +22,6 @@ There are also test files to illustrate how the examples could be used:
 * test/multi_table_api.js: test the functionality of the table_multi_api.js
 * test/KeyspaceMapper.js: test the functionality of the KeyspaceMapper
 * test/sample_data.js: sample data for table_multi_api.js 
-
-### Prerequisites
-* This requires a recent version of Node.js; I was using v14.7
-* You'll also need an Astra database (can be set up for free)
 
 ## Setup and Running
 
