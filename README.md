@@ -34,7 +34,7 @@ There are also test files to illustrate how the examples could be used:
 If you'd like to see the tests in action, you'll need a test database.
 1. Create a free-forever Cassandra Database with DataStax Astra: [click here to get started](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=spring-data-starter) 🚀
 ![90944037-75aa8180-e3d1-11ea-9b17-91929d55bc07](https://user-images.githubusercontent.com/69874632/91213849-11383c80-e6c7-11ea-8e75-f58646502971.png)
-2. Set up a database, keyspace, username and password (in the samples, I named the database and keyspace "stuff", username "stuff_user" and password "stuff_password)
+2. Set up a database, keyspace, username and password (in the samples, I named the database and keyspace "stuff", username "stuff_user" and password "stuff_password")
 3. Put all of this information into your `config.js`
 4. Download the secure connect bundle from the summary page after your database has launched.  You'll need this later. Save this file update the `config.js` file with the path to it.
 5. Also grab the REST API URL from the Summary page - put base of this URL in the config.js.  The base of the REST API URL and the GraphQL API URL are the same, just trim off the "/api/rest" part.  
