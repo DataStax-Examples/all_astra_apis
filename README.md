@@ -1,8 +1,3 @@
-
-All Astra APIs tutorial:
-
-[![Tutorial](https://user-images.githubusercontent.com/69874632/95136062-47cb9300-071a-11eb-8e84-506aea30feff.png)](https://www.youtube.com/watch?v=r8JQZvO-n9A "Tutorial")
-
 # Demonstrate All Astra APIs
 Data in the Astra DBaaS can be accessed using four different APIs (so far).  
 * GraphQL API
@@ -11,6 +6,10 @@ Data in the Astra DBaaS can be accessed using four different APIs (so far).
 * Mapper API
 
 This reference project shows how you can use these APIs from Node.js.
+
+All Astra APIs tutorial:
+
+[![Tutorial](https://user-images.githubusercontent.com/69874632/95136062-47cb9300-071a-11eb-8e84-506aea30feff.png)](https://www.youtube.com/watch?v=r8JQZvO-n9A "Tutorial")
 
 Contributors: [Kiyu Gabriel](https://github.com/qzg)
 
