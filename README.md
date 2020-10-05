@@ -1,5 +1,3 @@
-video: https://www.youtube.com/embed/r8JQZvO-n9A
-
 # Demonstrate All Astra APIs
 Data in the Astra DBaaS can be accessed using four different APIs (so far).  
 * GraphQL API
