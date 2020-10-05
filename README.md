@@ -1,7 +1,7 @@
 
 All Astra APIs tutorial:
 
-[![Tutorial](https://user-images.githubusercontent.com/69874632/95135245-f66ed400-0718-11eb-9549-fb8624585629.png)](https://www.youtube.com/watch?v=r8JQZvO-n9A&list=PL2g2h-wyI4SracGa2Pl2yBAIu-DBjf1YU&index=2&t=14s "Tutorial")
+[![Tutorial](https://user-images.githubusercontent.com/69874632/95135245-f66ed400-0718-11eb-9549-fb8624585629.png)](https://www.youtube.com/watch?v=r8JQZvO-n9A "Tutorial")
 
 # Demonstrate All Astra APIs
 Data in the Astra DBaaS can be accessed using four different APIs (so far).  
