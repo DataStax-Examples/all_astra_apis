@@ -36,7 +36,7 @@ There are also test files to illustrate how the examples could be used:
 
 ### Running
 If you'd like to see the tests in action, you'll need a test database.
-1. Create a free-forever Cassandra Database with DataStax Astra: [click here to get started](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=spring-data-starter) 🚀
+1. Create a free-forever Cassandra Database with DataStax Astra: [click here to get started](https://astra.datastax.com/register?utm_source=devplay&utm_medium=github&utm_campaign=all_astra_apis) 🚀
 ![90944037-75aa8180-e3d1-11ea-9b17-91929d55bc07](https://user-images.githubusercontent.com/69874632/91213849-11383c80-e6c7-11ea-8e75-f58646502971.png)
 2. Set up a database, keyspace, username and password (in the samples, I named the database and keyspace "stuff", username "stuff_user" and password "stuff_password")
 3. Put all of this information into your `config.js`
